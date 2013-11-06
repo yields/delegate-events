@@ -1,0 +1,19 @@
+{
+  "name": "delegate-events",
+  "repo": "yields/delegate-events",
+  "description": "delegate events from one emitter to another",
+  "keywords": ["delegate", "events"],
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "component/each": "*"
+  },
+  "development": {
+    "visionmedia/mocha-matrix": "*",
+    "visionmedia/mocha": "*",
+    "component/emitter": "*",
+    "component/assert": "*"
+  }
+}
